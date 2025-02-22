@@ -10,3 +10,4 @@
 /.project
 /data/eclipsefdn_projects.yaml
 .hugo_build.lock
+/.vs

@@ -109,3 +109,11 @@ Have a bug or a feature request? Please search for existing and closed issues. I
 ## Copyright and license
 
 Copyright 2021 the [Eclipse Foundation, Inc.](https://www.eclipse.org) and the [hugo-eclipsefdn-website-boilerplate authors](https://gitlab.eclipse.org/eclipsefdn/it/webdev/hugo-eclipsefdn-website-boilerplate/-/graphs/main). Code released under the [Eclipse Public License Version 2.0 (EPL-2.0)](https://gitlab.eclipse.org/eclipsefdn/it/webdev/hugo-eclipsefdn-website-boilerplate/-/blob/main/LICENSE).
+
+Photo by [Phill Brown](https://unsplash.com/@phillbrown?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/a-sign-that-is-lit-up-in-the-dark-8KXCIrTa1zk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+Photo by [Christin Hume](https://unsplash.com/@christinhumephoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/person-using-macbook-hBuwVLcYTnA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+Photo by [Marc-Olivier Jodoin](https://unsplash.com/@marcojodoin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/long-exposure-photography-of-road-and-cars-NqOInJ-ttqM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+
+Photo by [Charles Forerunner]("https://unsplash.com/@charles_forerunner?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/people-standing-inside-city-building-3fPXt37X6UQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)

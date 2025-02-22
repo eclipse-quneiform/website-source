@@ -1,0 +1,15 @@
+{{ $headline := (.Get "headline" | safeHTML) }}
+{{ $content := (.Get "content" | safeHTML) }}
+{{ $image := (.Get "image") }}
+
+<div class="image-card">
+  <div class="image-card-image">
+    <a href="{{ $image }}" data-lightbox="{{ .Get "lightbox-id" }}" data-title="{{ .Get "lightbox-caption" }}">
+    <img src="{{ $image }}" alt="{{ (.Get "alt") }}" class="img-responsive">
+    </a>
+  </div>
+  <div class="image-card-content">
+      <h3>{{ $headline }}</h3>
+      <p>{{ $content }}</p>
+  </div>
+</div>

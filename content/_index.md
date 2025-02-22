@@ -1,24 +1,42 @@
 ---
-title: "hugo-eclipsefdn-website-boilerplate"
-date: 2020-03-01T16:09:45-04:00
-#headline: "The Community for Open Innovation and Collaboration"
-#tagline: "The Eclipse Foundation provides our global community of individuals and organizations with a mature, scalable, and business-friendly environment for open source software collaboration and innovation."
+title: "Quneiform - Home"
+date: 2025-02-22
+tagline: "Analyze, test, and improve your application for globalization readiness."
 hide_page_title: true
-#hide_sidebar: true
-#hide_breadcrumb: true
-#show_featured_story: true
-#layout: "single"
-#links: [[href: "/projects/", text: "Projects"],[href: "/org/workinggroups/", text: "Working Group"],[href: "/membership/", text: "Members"],[href: "/org/value", text: "Business Value"]]
-#container: "container-fluid"
+headline: "Quneiform"
+hide_sidebar: true
+hide_breadcrumb: true
+show_featured_story: false
 ---
 
-# hugo-eclipsefdn-website-boilerplate
+## Open Source I18N & L10N Analysis Software
 
-The hugo-eclipsefdn-website-boilerplate project is available under the EPL-v2. 
+*Quneiform* is free & open source.
 
-Currently the project is maintained by the Eclipse Foundation web development team, but like other projects under the Eclipse Foundation umbrella is open to community input and development.
+{{< carousel fit="cover" arrow-color="white" data="carousel" justifications="flex-end|flex-start|flex-start"
+    text-colors="white|white|white"
+    shadow-colors="black|black|black"
+    headlines="Tools for software translators|Tools for software developers|Tools for testers"
+    content="Review translations for malformed placeholders and a variety of inconsistency issues.|Analyze source code and resources for internationalization issues.|Pseudo-translate your application for real-time testing.">}}
+
+### Features
+
+{{< left-image-card
+    lightbox-id="modern-img" lightbox-caption="Modernize options"
+    headline="Modernize your application" content="Find and upgrade legacy issues in your code base and resources, such as the use of TCHAR functions or half-width Kanas." image="images/main-window.png" >}}
+
+{{< left-image-card
+    lightbox-id="source-code-img" lightbox-caption="Source code options"
+    headline="Source code analysis" content="Detect bad practices that can lead to truncated content, display issues, and program crashes." image="images/main-window.png" >}}
+
+{{< left-image-card
+    lightbox-id="resource-img" lightbox-caption="Resource options"
+    headline="Proactive resource analysis" content="Detect resources not available for translation, confusing messages, and l10n-unfriendly strings prior to translator hand off." image="images/options-dialog-source.png" >}}
+
+{{< left-image-card
+    lightbox-id="pseudo-img" lightbox-caption="Pseudo-translation options"
+    headline="Pseudo-translation testing" content="Pseudo-translate resources to perform integration testing before translation even begins. Numerous options are available for pseudo-translations, such as:<ul><li>multiple replacement character sets to choose from</li><li>string length widening</li><li>unique IDs prefixing</li><li>surrounding brackets</li></ul>" image="images/options-dialog-resources.png" >}}
 
 {{< starterkit/example >}}
 
 For more information, see our documentation for the [hugo-solstice-theme](https://webdev.eclipse.org/docs/hugo/).
-

@@ -1,0 +1,37 @@
+{{/*
+  Copyright (c) 2025 Eclipse Foundation, Inc.
+
+  This program and the accompanying materials are made available under the
+  terms of the Eclipse Public License v. 2.0 which is available at
+  http://www.eclipse.org/legal/epl-2.0.
+
+  Contributors:
+    Blake Madden
+
+  SPDX-License-Identifier: EPL-2.0
+*/}}
+
+{{ $header_wrapper_class := .Params.header_wrapper_class | default .Site.Params.header_wrapper_class }}
+
+{{ partial "google_tag_manager_no_script.html" . }}
+<a class="sr-only" href="#content">{{ i18n "navigation-content-skip" }}</a>
+
+<header id="navbar">
+    <nav class="navbar-container container">
+      <button type="button" class="navbar-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navbar-menu">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <div id="navbar-menu" class="attached">
+        <ul class="navbar-links">
+       {{ partial "main-menu-bar.html" . }}
+        </ul>
+      </div>
+    </nav>
+</header>
+
+{{ partial "jumbotron.html" . }}
+
+<!-- must be included after the header section for the navbar to work -->
+<script type="text/javascript" src="js/navbar.js"></script>

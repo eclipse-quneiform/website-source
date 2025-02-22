@@ -1,0 +1,43 @@
+.image-card {
+  background: linear-gradient(to right,white,white,rgb(227, 250, 247));
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  border: 2px solid rgb(160, 215, 230);
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(90,90,90);
+}
+
+.image-card h3 {
+  color: rgb(90,90,90);
+}
+
+.image-card-image {
+  margin: 0 auto;
+  position: relative;
+  flex: 60%;
+}
+
+.image-card-content {
+  margin: 0 auto;
+  padding: 2em;
+  position: relative;
+  flex: 40%;
+}
+
+.image-card img {
+  position: relative;
+  min-height: 22rem;
+  max-height: 40rem;
+  display: block;
+  max-width: 100%;
+  margin: 10px;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 800px) {
+  .image-card-content, .image-card-image {
+    flex: 100%;
+  }
+}
