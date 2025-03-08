@@ -5,7 +5,8 @@
 {{ $arrowColor := or (.Get "arrow-color") "white" }}
 {{ $justifications := split (.Get "justifications") "|" }}
 {{ $headlines := split (.Get "headlines") "|" }}
-{{ $content := split (.Get "content") "|" }}
+{{ $contents := split (.Get "content") "|" }}
+{{ $learnMores := split (.Get "learn-mores") "|" }}
 {{ $textColors := split (.Get "text-colors") "|" }}
 {{ $shadowColors := split (.Get "shadow-colors") "|" }}
 
@@ -24,12 +25,21 @@
         {{ if and (lt $index (len $shadowColors)) (len (index $shadowColors $index))}}
           {{ $currentShadowColor = index $shadowColors $index }}
         {{ end }}
+        {{ $currentLearnMoreLink := "" }}
+        {{ if and (lt $index (len $learnMores)) (len (index $learnMores $index))}}
+          {{ $currentLearnMoreLink = index $learnMores $index }}
+        {{ end }}
         <li id="c{{ $.Ordinal }}_slide{{ add $index 1}}" style="min-width: calc(100%/{{ $items }}); padding-bottom: {{ $height }};">
         <img src="{{ $slide }}" alt="" style="object-fit: {{ $fit }};" />
         <div style="justify-content: {{ $currentJustification }}; text-align: left;">
         <div class="carousel-text" style="color: {{ $currentTextColor }}; align-items: {{ $currentJustification }}">
-        <div class="carousel-headline" style="text-shadow: 0 0 5px {{ $currentShadowColor }};">{{ if lt $index (len $headlines)}}{{ index $headlines $index }}{{ end }}</div>
-        <div class="carousel-text-body" style="text-shadow: 0 0 5px {{ $currentShadowColor }};">{{ if lt $index (len $content)}}{{ index $content $index }}{{ end }}</div>
+        <div class="carousel-headline" style="text-shadow: 0 0 2px {{ $currentShadowColor }}, 0 0 3px {{ $currentShadowColor }}, 0 0 4px {{ $currentShadowColor }}, 0 0 5px {{ $currentShadowColor }};">{{ if lt $index (len $headlines)}}{{ index $headlines $index }}{{ end }}</div>
+        <div class="carousel-text-body" style="text-shadow: 0 0 2px {{ $currentShadowColor }}, 0 0 3px {{ $currentShadowColor }}, 0 0 4px {{ $currentShadowColor }}, 0 0 5px {{ $currentShadowColor }};">{{ if lt $index (len $contents)}}{{ index $contents $index }}{{ end }}</div>
+        {{ if len $currentLearnMoreLink }}
+        <a href='{{ $currentLearnMoreLink }}' style="text-decoration: none; padding: 20px 0 0 0;">
+        <div class="highlight-button">Learn More</div>
+        </a>
+        {{ end }}
         </div>
         </div>
         </li>

@@ -1,8 +1,8 @@
 :root {
     --navbar-bg-color: white;
-    --navbar-text-color: rgb(54, 157, 197);
-    --navbar-text-color-focus: rgb(54, 157, 197);
-    --navbar-bg-contrast: rgba(158, 234, 249, .25);
+    --navbar-text-color: rgb(240, 108, 0);
+    --navbar-text-color-focus: rgb(240, 108, 0);
+    --navbar-bg-contrast: rgba(255, 225, 201, .25);
 }
 
 * {

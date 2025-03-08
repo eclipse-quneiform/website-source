@@ -31,7 +31,11 @@
     </nav>
 </header>
 
+<!-- push content beneath navbar -->
+<div style="height: 64px"></div>
+
 {{ partial "jumbotron.html" . }}
 
 <!-- must be included after the header section for the navbar to work -->
-<script type="text/javascript" src="js/navbar.js"></script>
+<script type="text/javascript" src="{{ "js/navbar.js" | relURL }}"></script>
+

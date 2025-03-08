@@ -1,5 +1,27 @@
 .featured-jumbotron{ background-image:url(../images/charles-forerunner-3fPXt37X6UQ-unsplash.jpg) }
 
+.featured-jumbotron h1 {
+    font-weight: 500 !important;
+}
+
+.featured-jumbotron.featured-jumbotron-dark .btn-primary{
+    background-color: rgba(67, 52, 129, .9);
+    border: 3px solid rgb(67, 52, 129);
+    border-radius: 5px;
+    color: white !important;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+
+.featured-jumbotron.featured-jumbotron-dark .btn-primary:hover {
+  transform: scale(1.05, 1.05);
+  background: rgb(67, 52, 129);
+}
+
+body {
+    font-family: "Quicksand", "Inter", "Roboto", sans-serif !important;
+}
+
 body .container {
-width: 75% !important;
+    width: 75% !important;
 }
