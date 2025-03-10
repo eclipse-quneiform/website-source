@@ -1,10 +1,10 @@
 :root {
-    --card-dark-color: rgb(67, 52, 129);
+    --card-dark-color: rgb(0, 77, 77);
     --card-light-color: rgb(240, 108, 0);
 }
 
 .image-card {
-  background: linear-gradient(to right,white,white,rgba(67, 52, 129, .15));
+  background: linear-gradient(to right,white,white,rgba(0, 77, 77, .15));
   margin-top: 1rem;
   margin-bottom: 1rem;
   box-sizing: border-box;
@@ -64,5 +64,6 @@
 
 .highlight-button:hover {
   transform: scale(1.05, 1.05);
-  background: rgba(240, 108, 0, .2);
+  font-weight: 800;
+  background: var(--card-dark-color);
 }

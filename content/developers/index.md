@@ -8,6 +8,8 @@ show_featured_story: false
 show_featured_footer: false
 ---
 
+{{< hero-image image="carousel/marc-olivier-jodoin-NqOInJ-ttqM-unsplash.jpg" label="Developers" >}}
+
 ### Features for Developers
 
 *Quneiform* provides numerous tools for analyzing your project at every stage of internationalization.

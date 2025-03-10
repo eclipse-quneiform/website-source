@@ -1,0 +1,21 @@
+
+.hero-image {
+  /* Image and gradient must be provided via shortcode /
+
+  /* Set a specific height */
+  height: 300px;
+  margin: 0 0 20px 0;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text h1 {
+  text-align: center;
+  position: absolute;
+  color: white;
+  padding: 5px;
+}

@@ -1,0 +1,9 @@
+{{ $headline := (.Get "headline") }}
+{{ $content := (.Get "content") }}
+{{ $date := or (time.AsTime (.Get "date")) "" }}
+
+<div class="news-item">
+<div class="news-headline">{{ $headline }}</div>
+<div>{{ time.Format ":date_long" $date }}</div>
+<div style="padding 5px 0 0 0">{{ $content }}</div>
+</div>

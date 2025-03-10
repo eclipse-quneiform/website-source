@@ -8,6 +8,8 @@ show_featured_story: false
 show_featured_footer: false
 ---
 
+{{< hero-image image="carousel/christin-hume-hBuwVLcYTnA-unsplash.jpg" label="Translators" >}}
+
 ### Features for Translators & Language Service Providers
 
 *Quneiform* provides tools for reviewing your translations at the final stage of project sign-off.

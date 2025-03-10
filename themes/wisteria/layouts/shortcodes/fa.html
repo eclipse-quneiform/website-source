@@ -1,0 +1,4 @@
+{{ $icon := (.Get "icon") }}
+{{ $color := or (.Get "color") "black" }}
+
+<i class="{{ $icon }}" style="color: {{ $color }}"></i>

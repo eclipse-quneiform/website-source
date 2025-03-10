@@ -11,4 +11,5 @@ show_featured_footer: false
 ### System Requirements
 
 **Operating System** : Windows 10 or higher / macOS 10.15 / Linux
+
 **RAM** : 2 GB at minimum required. 4 GB recommended.
