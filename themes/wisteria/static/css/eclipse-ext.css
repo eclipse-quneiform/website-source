@@ -26,3 +26,7 @@ body {
 body .container {
     width: 75% !important;
 }
+
+.footer-end-social-container {
+    display: none !important;
+}
