@@ -1,4 +1,4 @@
-baseurl = "https://eclipse.dev/hugo-eclipsefdn-website-boilerplate"
+baseurl = "https://eclipse.dev/quneiform"
 DefaultContentLanguage = "en"
 title = "The Community for Open Innovation and Collaboration"
 theme = ["wisteria", "hugo-solstice-theme"]
