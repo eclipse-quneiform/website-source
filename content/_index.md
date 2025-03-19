@@ -8,15 +8,19 @@ hide_sidebar: true
 hide_breadcrumb: true
 show_featured_story: false
 show_featured_footer: false
-logo: images/app-logo.png
-favicon: images/app-logo.png
-share_img: images/app-logo.png
 links: [[href: "download/", text: "Download"]]
 ---
 
 ## About
 
 *Quneiform* is free & open source software for analyzing applications for internationalization and localization issues.
+It can review both your source code and resource files to detect an array of problems.
+
+At the source code level, issues such as untranslatable strings or translations being concatenated can be uncovered.
+Likewise, translation catalogs can be reviewed for problems such as mismatching format commands, numbers, and keyboard accelerators.
+
+By reporting these issues, *Quneiform* can help you ensure that your software is localization ready.
+Additionally, it can provide an extra layer of quality assurance to your translation review process.
 
 {{< carousel fit="cover" arrow-color="white" data="carousel"
     justifications="flex-end|flex-start|flex-start"
@@ -30,5 +34,5 @@ links: [[href: "download/", text: "Download"]]
 ## News {{< fa icon="fa fa-newspaper-o " >}}
 
 {{< news-section >}}
-    {{< news-item headline="New Release" content="Coming soon" date="2025-03-09" >}}
+    {{< news-item headline="New Release" content="Coming soon..." date="2025-03-09" >}}
 {{< /news-section >}}
