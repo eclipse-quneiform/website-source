@@ -1,6 +1,6 @@
 baseurl = "https://eclipse.dev/quneiform"
 DefaultContentLanguage = "en"
-title = "The Community for Open Innovation and Collaboration"
+title = "i18n & l10n Analysis Software"
 theme = ["wisteria", "hugo-solstice-theme"]
 metaDataFormat = "yaml"
 disableKinds = []
@@ -11,12 +11,10 @@ pluralizeListTitles = false
   google_tag_manager = "GTM-5WLCZXC"
   description = "The Eclipse Foundation provides our global community of individuals and organizations with a mature, scalable, and business-friendly environment for open source software collaboration and innovation."
   seo_title_suffix = " | The Eclipse Foundation"
-  keywords = ["eclipse", "project", "plug-ins", "plugins", "java", "ide", "swt", "refactoring", "free java ide", "tools", "platform", "open source", "development environment", "development", "ide"]
-  news_count = 3
+  keywords = ["eclipse", "project", "i18n", "l10n", "C++", "lint", "qt", "wxWidgets"]
   gcse = "011805775785170369411:p3ec0igo0qq"
   gcse_result_url = "https://www.eclipse.org/home/search/"
   hide_call_for_action = true
-  #header_wrapper_class = "header_wrapper_class"
   call_for_action_text = "Download"
   call_for_action_url = "//eclipse.org/downloads/"
   call_for_action_icon = "fa-download"
@@ -24,12 +22,11 @@ pluralizeListTitles = false
   hide_ad = true
   featured_content_publish_target = "eclipse_org"
   sidebar_layout = "default"
+  logo = "images/app-logo.png"
+  favicon = "images/app-logo.png"
+  share_img = "images/app-logo.png"
 # js = ""
 # styles = ""
-# logo = ""
-# favicon = ""
-# share_img = ""
-# logo_width = ""
 # header_left_classes = ""
 # main_menu_wrapper_classes = ""
 # projects_working_group = ""
@@ -57,35 +54,3 @@ pluralizeListTitles = false
 [blackfriday]
   plainIDAnchors = true
   hrefTargetBlank = true
-
-[[menu.sidebar]]
-  name = "Documentation"
-  url = "/home"
-  weight = 1
-  identifier = "home"
-
-[[menu.sidebar]]
-  parent ="home"
-  name = "hugo-solstice-theme"
-  url = "https://webdev.eclipse.org/docs/hugo/"
-  weight = 1
-  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
-
-[[menu.sidebar]]
-  parent ="home"
-  name = "Solstice"
-  url = "https://www.eclipse.org/eclipse.org-common/themes/solstice/docs/"
-  weight = 2
-  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
-
-[[menu.sidebar]]
-  parent ="home"
-  name = "Hugo"
-  url = "https://gohugo.io/documentation/"
-  weight = 3
-  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
-
-# Uncomment [[menu.main]] to hide the default EF menu
-# or to define your own menu links.
-
-# [[menu.main]]
