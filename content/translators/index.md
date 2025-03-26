@@ -12,7 +12,7 @@ show_featured_footer: false
 
 ### Features for Translators & Language Service Providers
 
-*Quneiform* provides tools for reviewing your translations at the final stage of project sign-off.
+*Eclipse Quneiform*^®^ provides tools for reviewing your translations at the final stage of project sign-off.
 This includes inconsistency checks between the source and target strings, ensuring accurate and stable translations.
 
 {{< left-image-card

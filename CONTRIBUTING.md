@@ -1,19 +1,12 @@
-# Contributing to hugo-eclipsefdn-website-boilerplate
-
+# Contributing to Eclipse Quneiform's website
 
 Thanks for your interest in this project.
 
+
 ## Project description
 
-hugo-eclipsefdn-website-boilerplate
- is a project to regroup assets for the Eclipse Foundation look and feel. 
-
-* https://github.com/EclipseFdn/hugo-eclipsefdn-website-boilerplate
-
-
-## Developer resources
-
-The project maintains the following source code repositories
+This is the *Eclipse Quneiform* website, based on the
+*hugo-eclipsefdn-website-boilerplate* template for the Eclipse Foundation look and feel:
 
 * https://github.com/EclipseFdn/hugo-eclipsefdn-website-boilerplate
 

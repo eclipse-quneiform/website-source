@@ -12,7 +12,7 @@ show_featured_footer: false
 
 ### Features for Developers
 
-*Quneiform* provides numerous tools for analyzing your project at every stage of internationalization.
+*Eclipse Quneiform*^®^ provides numerous tools for analyzing your project at every stage of internationalization.
 At the initial stage, *Quneiform* will analyze your source code to uncover various problems.
 This can include issues such as function misuse, strings not exposed for translation, etc.
 

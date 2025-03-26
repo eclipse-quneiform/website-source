@@ -1,7 +1,7 @@
 ---
-title: "Quneiform - Home"
+title: "Eclipse Quneiform - Home"
 date: 2025-02-22
-headline: "Quneiform"
+headline: "Eclipse Quneiform"
 tagline: "Analyze, test, and improve your application for globalization readiness."
 hide_page_title: true
 hide_sidebar: true
@@ -13,7 +13,7 @@ links: [[href: "download/", text: "Download"]]
 
 ## About
 
-*Quneiform* is free & open source software for analyzing applications for internationalization and localization issues.
+*Eclipse Quneiform*^®^ is free & open source software for analyzing applications for internationalization and localization issues.
 It can review both your source code and resource files to detect an array of problems.
 
 At the source code level, issues such as untranslatable strings or translations being concatenated can be uncovered.

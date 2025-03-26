@@ -2,10 +2,11 @@
 
 This content is produced and maintained by the Eclipse Foundation.
 
-* Project home: https://github.com/EclipseFdn/hugo-eclipsefdn-website-boilerplate
+* Project home: https://github.com/eclipse-quneiform/website-source.git
 
 ## Trademarks
 
+* Eclipse Quneiform® is a Trademark of the Eclipse Foundation, Inc.
 * Jakarta and Jakarta EE are Trademarks of the Eclipse Foundation, Inc.
 * Eclipse® is a Trademark of the Eclipse Foundation, Inc.
 * Eclipse Foundation is a Trademark of the Eclipse Foundation, Inc.
@@ -28,7 +29,7 @@ SPDX-License-Identifier: EPL-2.0
 
 The project maintains the following source code repositories:
 
-* https://github.com/EclipseFdn/hugo-eclipsefdn-website-boilerplate
+* https://github.com/eclipse-quneiform/website-source.git
 
 ## Third-party Content
 
@@ -67,3 +68,17 @@ The project maintains the following source code repositories:
 ### jquery.matchHeight.js (^0.7.2)
 
 * License: The MIT License (MIT)
+
+### Lightbox2
+
+http://lokeshdhakar.com/projects/lightbox2/
+
+* License: The MIT License (MIT)
+** https://github.com/lokesh/lightbox2/blob/master/LICENSE
+
+### Hugo Codex
+
+https://hugocodex.org/add-ons/slider-carousel
+
+* License: Permissive license
+** https://hugocodex.org/about/
