@@ -1,19 +1,6 @@
 # Security Policy
 
-<!--
-    THIS IS A TEMPLATE THAT YOU MUST MODIFIY FOR USE BY YOUR PROJECT.
-    
-    Adapt this template as required:
-
-    * Remove content that does not make sense for your project
-    * Replace <organization> and <repository> with values for your project
-    * Remove the comments
-
-    For any questions about implementing security best practices, contact the 
-    Eclipse Foundation Security Team at security@eclipse-foundation.org
--->
-
-This Eclipse Foundation Project adheres to the [Eclipse Foundation Vulnerability Reporting Policy](https://www.eclipse.org/security/policy/).
+Eclipse Quneiform adheres to the [Eclipse Foundation Vulnerability Reporting Policy](https://www.eclipse.org/security/policy/).
 
 ## How To Report a Vulnerability
 
@@ -25,7 +12,6 @@ Instead, report it using one of the following ways:
 
 * Contact the [Eclipse Foundation Security Team](mailto:security@eclipse-foundation.org) via email
 * Create a [confidential issue](https://gitlab.eclipse.org/security/vulnerability-reports/-/issues/new?issuable_template=new_vulnerability) in the Eclipse Foundation Vulnerability Reporting Tracker
-* <!-- EDIT THIS LINE IF YOUR PROJECT USES GITHUB ADVISORIES; DELETE IT OTHERWISE --> Report a [vulnerability](https://github.com/<organization>/<repository>/security/advisories/new) directly via private vulnerability reporting on GitHub
 
 You can find more information about reporting and disclosure at the [Eclipse Foundation Security page](https://www.eclipse.org/security/).
 
@@ -42,13 +28,3 @@ Please include as much of the information listed below as you can to help us bet
 * Proof-of-concept or exploit code (if possible)
 
 This information will help us triage your report more quickly.
-
-## Supported Versions
-
-<!--
-    Which releases of the project's software are actively maintained and receive security updates?
--->
-Supported versions are:
-
-* Version 1
-* ...
