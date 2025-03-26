@@ -1,4 +1,4 @@
-# Notices for hugo-eclipsefdn-website-boilerplate
+# Notices for *Eclipse Quneiform*®
 
 This content is produced and maintained by the Eclipse Foundation.
 
