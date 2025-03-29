@@ -30,3 +30,8 @@ body .container {
 .footer-end-social-container {
     display: none !important;
 }
+
+#copyright-text::before {
+    content: "Eclipse Quneiform, Eclipse, and Eclipse Foundation are trademarks of the Eclipse Foundation. \A";
+    white-space: pre; /* or pre-wrap */
+}

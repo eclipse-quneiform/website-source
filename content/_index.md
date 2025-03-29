@@ -13,7 +13,7 @@ links: [[href: "download/", text: "Download"]]
 
 ## About
 
-*Eclipse Quneiform*^®^ is free & open source software for analyzing applications for internationalization and localization issues.
+*Eclipse Quneiform*&reg; is free & open source software for analyzing applications for internationalization and localization issues.
 It can review both your source code and resource files to detect an array of problems.
 
 At the source code level, issues such as untranslatable strings or translations being concatenated can be uncovered.

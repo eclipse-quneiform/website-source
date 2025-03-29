@@ -1,5 +1,5 @@
 :root {
-    --card-dark-color: rgb(0, 77, 77);
+    --card-dark-color: rgb(0, 0, 0);
     --card-light-color: rgb(240, 108, 0);
 }
 
@@ -51,6 +51,7 @@
   border: 2px solid var(--card-light-color);
   box-shadow: none;
   color: var(--card-light-color);
+  background: var(--card-dark-color);
   margin-bottom: 1rem;
   margin-right: 0.5rem;
   padding: 0.5rem 1.5rem;
@@ -64,5 +65,4 @@
 .highlight-button:hover {
   transform: scale(1.05, 1.05);
   font-weight: 800;
-  background: var(--card-dark-color);
 }
