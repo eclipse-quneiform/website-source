@@ -1,6 +1,9 @@
 :root {
-    --card-dark-color: rgb(0, 0, 0);
+    --card-shadow: rgba(0, 0, 0, 0.25);
+    --card-dark-color: #d2d3d5;
+    --card-dark-color-hover: rgb(75, 75, 75);
     --card-light-color: rgb(240, 108, 0);
+    --card-light-color-faded: rgba(240, 108, 0, .25);
 }
 
 .image-card {
@@ -22,23 +25,24 @@
 .image-card-image {
   margin: 0 auto;
   position: relative;
-  flex: 60%;
+  flex: 40%;
 }
 
 .image-card-content {
   margin: 0 auto;
   padding: 2em;
   position: relative;
-  flex: 40%;
+  flex: 60%;
 }
 
 .image-card img {
   position: relative;
-  min-height: 22rem;
+  min-height: 20rem;
   max-height: 40rem;
   max-width: 90%;
   display: block;
   margin: 10px;
+  box-shadow: 10px 5px 5px var(--card-shadow);
 }
 
 @media (max-width: 800px) {
@@ -48,10 +52,11 @@
 }
 
 .highlight-button {
+  width: max-content !important;
   border: 2px solid var(--card-light-color);
   box-shadow: none;
   color: var(--card-light-color);
-  background: var(--card-dark-color);
+  background: black;
   margin-bottom: 1rem;
   margin-right: 0.5rem;
   padding: 0.5rem 1.5rem;
@@ -63,6 +68,13 @@
 }
 
 .highlight-button:hover {
-  transform: scale(1.05, 1.05);
-  font-weight: 800;
+  background: var(--card-dark-color-hover);
+}
+
+.white-background {
+  background: white !important;
+}
+
+.white-background:hover {
+  background: var(--card-light-color-faded) !important;
 }

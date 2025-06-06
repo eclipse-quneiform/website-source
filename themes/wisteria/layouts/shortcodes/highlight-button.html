@@ -1,0 +1,15 @@
+{{ $link := (.Get "link") }}
+{{ $label := (.Get "label") }}
+{{ $class := or (.Get "class") "white" }}
+<!-- fontawesome icon -->
+{{ $icon := (.Get "icon") }}
+{{ $color := or (.Get "color") "black" }}
+
+<a href='{{ $link }}' style="text-decoration: none; padding: 20px 0 0 0;">
+  <div class="highlight-button {{ $class }}">
+  {{ if len $icon }}
+  <i class="{{ $icon }}" style="color: {{ $color }}"></i>
+  {{ end }}
+  {{ $label }}
+  </div>
+</a>

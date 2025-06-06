@@ -1,6 +1,7 @@
 :root {
     --navbar-bg-color: white;
-    --navbar-text-color: rgb(240, 108, 0);
+    --navbar-text-color: #616163;
+    --navbar-text-color-faded: rgba(13, 116, 118, .25);
     --navbar-text-color-focus: rgb(240, 108, 0);
     --navbar-bg-contrast: rgba(255, 225, 201, .25);
 }
@@ -26,38 +27,58 @@
     display: flex;
     justify-content: space-between;
     height: 100%;
-    align-items: center;
 }
 
 .home-link,
 .navbar-link {
     color: var(--navbar-text-color);
+    white-space: nowrap;
     text-decoration: none;
     display: flex;
     font-weight: 400;
     align-items: center;
-    transition: background-color 0.5s ease-in-out,
-                color 0.8s ease-in-out,
-                font-weight 0.8s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+
+    &::before {
+        content: attr(data-item);
+        transition: 0.5s;
+        color: var(--navbar-text-color-focus);
+        font-weight: 500;
+        position: absolute;
+        align-items: center;
+        left: 0;
+        right: 0;
+        width: 0;
+        overflow: hidden;
+    }
+
+    &:hover {
+        &::before {
+        width: 100%;
+        transition: all 0.5s ease-in-out;
+        }
+    }
 }
 
-.home-link:focus,
-.home-link:hover {
-    color: var(--navbar-text-color-focus);
+.home-link:hover,
+.navbar-link:hover {
+    color: var(--navbar-text-color-faded);
 }
+
+.navbar-link:visited  {
+    color: var(--navbar-text-color);
+}
+
+.navbar-link  {
+    text-decoration: none !important;
+}
+
 
 .navbar-link {
     justify-content: center;
     width: 100%;
-    padding: 0.4em 0.8em;
     border-radius: 5px;
-}
-
-.navbar-link:focus,
-.navbar-link:hover {
-    color: var(--navbar-text-color-focus);
-    background-color: var(--navbar-bg-contrast);
-    font-weight: 500;
 }
 
 .navbar-logo {
@@ -207,8 +228,17 @@
 }
 
 .navbar-item {
+    color: var(--navbar-text-color);
     margin: 0.4em;
     width: 100%;
+    padding: 0.4em 0.8em;
+    border-bottom: solid;
+    border-color: transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-item:hover {
+    border-color: var(--navbar-text-color);
 }
 
 @media screen and (min-width: 700px) {
@@ -247,4 +277,3 @@
     display: flex;
     flex-direction: column;
 }
-

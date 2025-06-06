@@ -1,13 +1,20 @@
-.featured-jumbotron{ background-image:url(../images/charles-forerunner-3fPXt37X6UQ-unsplash.jpg) }
+.featured-jumbotron{
+    background-image:url(../images/banner.jpg)
+}
 
 .featured-jumbotron h1 {
     font-weight: 500 !important;
 }
 
+.featured-jumbotron .featured-jumbotron-headline, .featured-jumbotron-tagline  {
+    text-shadow: none !important;
+    color: white !important;
+}
+
 .featured-jumbotron.featured-jumbotron-dark .btn-primary{
-    background-color: rgb(240, 108, 0);
-    border: 2px solid rgb(240, 108, 0);
-    box-shadow: 5px 5px rgba(0, 0, 0, .4);
+    background: linear-gradient(to bottom, rgb(240, 108, 0) 1%, #d86000 100%);
+    border: 0px;
+    box-shadow: 5px 5px rgba(0, 0, 0, );
     border-radius: 5px;
     color: white !important;
     font-weight: 600;
@@ -16,7 +23,7 @@
 }
 
 .featured-jumbotron.featured-jumbotron-dark .btn-primary:hover {
-  transform: scale(1.05, 1.05);
+  background: linear-gradient(to bottom, #ff953e 1%, #d86000 100%);
 }
 
 body {
@@ -25,6 +32,18 @@ body {
 
 body .container {
     width: 75% !important;
+}
+
+.jumbotron .container {
+    border-radius: 10px;
+    margin-left: 10% !important;
+    width: max-content !important;
+    min-width: 600px;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    background-color: rgba(61, 60, 59, .90);
 }
 
 .footer-end-social-container {
