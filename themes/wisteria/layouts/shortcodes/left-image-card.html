@@ -1,15 +1,38 @@
 {{ $headline := (.Get "headline" | safeHTML) }}
 {{ $content := (.Get "content" | safeHTML) }}
 {{ $image := (.Get "image") }}
+{{ $style := or (.Get "style") "shadow" }}
+{{ $learnMoreLink := or (.Get "learn-more") "" }}
 
 <div class="image-card">
   <div class="image-card-image">
-    <a href="{{ $image }}" data-lightbox="{{ .Get "lightbox-id" }}" data-title="{{ .Get "lightbox-caption" }}">
-    <img src="{{ $image }}" alt="{{ (.Get "alt") }}" class="img-responsive">
-    </a>
+
+    {{ if eq $style "none" }}
+      <a href="{{ $image }}" data-lightbox="{{ .Get "lightbox-id" }}" data-title="{{ .Get "lightbox-caption" }}">
+      <img src="{{ $image }}" alt="{{ (.Get "alt") }}" class="img-responsive">
+      </a>
+    {{ else if eq $style "shadow" }}
+      <a href="{{ $image }}" data-lightbox="{{ .Get "lightbox-id" }}" data-title="{{ .Get "lightbox-caption" }}">
+      <img src="{{ $image }}" alt="{{ (.Get "alt") }}" class="img-responsive img-shadow">
+      </a>
+    {{ else if eq $style "banner" }}
+      <div class="image-card-dark-image img-responsive" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{ $image | relURL }});">
+        <div class="hero-text">
+          <h1 style="font-size:50px">{{ $headline }}</h1>
+        </div>
+      </div>
+    {{end}}
+
   </div>
   <div class="image-card-content">
+      {{ if not (eq $style "banner") }}
       <h3>{{ $headline }}</h3>
+      {{end}}
       <p>{{ $content }}</p>
+      {{ if len $learnMoreLink }}
+        <a href='{{ $learnMoreLink | relURL }}' style="text-decoration: none; padding: 20px 0 0 0;">
+        <div class="highlight-button">Learn More</div>
+        </a>
+      {{ end }}
   </div>
 </div>

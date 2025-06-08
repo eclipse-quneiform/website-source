@@ -37,12 +37,27 @@
 
 .image-card img {
   position: relative;
+  min-height: 5rem;
+  max-height: 40rem;
+  max-width: 90%;
+  display: block;
+  margin: 10px;
+}
+
+.img-shadow {
+  box-shadow: 10px 5px 5px var(--card-shadow);
+}
+
+.image-card-dark-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   min-height: 20rem;
   max-height: 40rem;
   max-width: 90%;
   display: block;
   margin: 10px;
-  box-shadow: 10px 5px 5px var(--card-shadow);
 }
 
 @media (max-width: 800px) {

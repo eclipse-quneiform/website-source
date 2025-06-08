@@ -42,7 +42,7 @@
         <div class="carousel-text-body" style="text-shadow: 0 0 2px {{ $currentShadowColor }}, 0 0 3px {{ $currentShadowColor }}, 0 0 4px {{ $currentShadowColor }}, 0 0 5px {{ $currentShadowColor }};">{{ if lt $index (len $contents)}}{{ index $contents $index }}{{ end }}</div>
         <!-- "Learn More" button below the text -->
         {{ if len $currentLearnMoreLink }}
-        <a href='{{ $currentLearnMoreLink }}' style="text-decoration: none; padding: 20px 0 0 0;">
+        <a href='{{ $currentLearnMoreLink | relURL }}' style="text-decoration: none; padding: 20px 0 0 0;">
         <div class="highlight-button">Learn More</div>
         </a>
         {{ end }}
