@@ -28,7 +28,7 @@ By performing these tests, your product will be l10n ready before translator han
     headline="Source code analysis" content="Detect bad practices that can lead to truncated content, display issues, and program crashes."
     image="../images/main-window.png" >}}
 
-{{< left-image-card
+{{< right-image-card
     lightbox-id="modern-img" lightbox-caption="Modernize options"
     headline="Modernize your application"
     content="Find and upgrade legacy issues in your code base and resources, such as the use of TCHAR functions or half-width Kanas."
@@ -39,7 +39,7 @@ By performing these tests, your product will be l10n ready before translator han
     headline="Proactive resource analysis" content="Detect resources not available for translation, confusing messages, and l10n-unfriendly strings prior to translator hand-off."
     image="../images/options-dialog-source.png" >}}
 
-{{< left-image-card
+{{< right-image-card
     lightbox-id="pseudo-img" lightbox-caption="Pseudo-translation options"
     headline="Pseudo-translation testing" content="Pseudo-translate resources to perform integration testing before translation even begins. Numerous options are available for pseudo-translations, such as:<ul><li>multiple replacement character sets to choose from</li><li>string length widening</li><li>unique IDs prefixing</li><li>surrounding brackets</li></ul>"
     image="../images/options-dialog-resources.png" >}}

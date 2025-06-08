@@ -10,13 +10,26 @@ show_featured_footer: false
 
 ### Download
 
-{{< fa icon = "fa fa-windows" >}} Windows
+#### {{< fa icon = "fa fa-windows" >}} Windows
 
-{{< fa icon = "fa fa-apple" >}} macOS
+Coming soon...
 
-{{< fa icon = "fa fa-linux" >}} Linux
+#### {{< fa icon = "fa fa-apple" >}} macOS
 
-{{< fa icon = "fa fa-file-code-o" >}} Source Code
+Coming soon...
+
+#### {{< fa icon = "fa fa-linux" >}} Linux
+
+Coming soon...
+
+#### {{< fa icon = "fa fa-file-code-o" >}} Source Code
+
+*Quneiform* is a free and open source application.
+You are free to study, modify, and distribute it under Eclipse Public License.
+
+{{< highlight-button class = "white-background" icon = "fa fa-GitHub" label = "GitHub" link = "https://github.com/eclipse-quneiform/quneiform" >}}
+
+{{< vertical-spacer >}}
 
 ### System Requirements
 
