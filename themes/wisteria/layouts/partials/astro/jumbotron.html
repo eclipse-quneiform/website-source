@@ -64,7 +64,7 @@
                 {{ end }}
                 <div class="list-inline" style="display: flex; justify-content: space-between;">
                     {{ range $key,$val := index .Page.Params.links}}
-                             <a class="{{ $.Scratch.Get "jumbotron_btn" }}" href="{{ (index $val 0).href}}">
+                             <a class="{{ $.Scratch.Get "jumbotron_btn" }}" href="{{ (index $val 0).href | absURL}}">
                                 {{ (index $val 1).text}}
                             </a>
                     {{ end }}

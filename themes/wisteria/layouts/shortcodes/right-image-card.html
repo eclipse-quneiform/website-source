@@ -11,7 +11,7 @@
       {{end}}
       <p>{{ $content }}</p>
       {{ if len $learnMoreLink }}
-        <a href='{{ $learnMoreLink | relURL }}' style="text-decoration: none; padding: 20px 0 0 0;">
+        <a href='{{ $learnMoreLink | absURL }}' style="text-decoration: none; padding: 20px 0 0 0;">
         <div class="highlight-button">Learn More</div>
         </a>
       {{ end }}
@@ -27,7 +27,7 @@
       <img src="{{ $image }}" alt="{{ (.Get "alt") }}" class="img-responsive img-shadow">
       </a>
     {{ else if eq $style "banner" }}
-      <div class="image-card-dark-image img-responsive" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{ $image | relURL }});">
+      <div class="image-card-dark-image img-responsive" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{ $image | absURL }});">
         <div class="hero-text">
           <h1 style="font-size:50px">{{ $headline }}</h1>
         </div>
